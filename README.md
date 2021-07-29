@@ -7,7 +7,7 @@ This app is built with React and designed with Tailwind CSS
 To install all package: 
 npm i
 
-n the project directory, you can run:
+In the project directory, you can run:
 npm start
 
 ## Short about an app
