@@ -1,0 +1,21 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.list-item {
+  @apply sm:w-1/4 md:w-full text-center p-7 text-sm md:text-base lg:text-lg uppercase font-semibold tracking-wider text-gray-600 cursor-pointer transition duration-300 ease-in-out hover:text-gray-500;
+}
+
+.list-item:focus {
+  @apply underline transform scale-105;
+}
+
+.bg-green-gradient {
+  background: rgb(3, 111, 9);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 111, 9, 1) 0%,
+    rgba(40, 130, 50, 1) 35%,
+    rgba(1, 222, 80, 1) 100%
+  );
+}
