@@ -2,9 +2,12 @@
 
 This app is built with React and designed with Tailwind CSS
 
-## Available Scripts
+## Starting an app
 
-In the project directory, you can run:
+To install all package: 
+npm i
+
+n the project directory, you can run:
 npm start
 
 ## Short about an app
